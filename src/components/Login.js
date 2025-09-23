@@ -28,7 +28,7 @@ const Login = () => {
           <label>Password</label>
           <input type="password" placeholder="Enter your password" />
 
-          <a href="#" className="forgot-link">Forgot Password?</a>
+          <a href="/home" className="forgot-link">Forgot Password?</a>
 
           <button type="submit" className="sign-in-btn">Sign in</button>
         </form>
@@ -38,3 +38,4 @@ const Login = () => {
 };
 
 export default Login;
+
